@@ -12,15 +12,44 @@ header{
  /*Set and adjust background image*/
  background-image: url("ice.jpg");
  background-size:cover;
-color:indigo;
+ max-width:100%;
+
 
  header h1 {
     text-align: center;
     
 }
 
- .pricing img {
-     height:50px;
-     width:50%;
+
+.pricing-ic-img {
+    height: 100px;
+    width: 100px;
 }
-    
+
+img{
+    Width:100px;
+    height:100px;
+}
+
+nav {
+ float:right;
+}
+
+nav a {
+ color: #444;
+}
+
+footer {
+ background-color:#222222;
+ height: 250px;
+ width: 100%;
+ color: #fff;
+ padding-top: 25px;
+}
+
+footer i{
+color: #fff;
+font-family: "Monserrat",sans-serif;
+padding: 15px;
+}
+
