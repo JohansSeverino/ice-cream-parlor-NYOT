@@ -11,13 +11,16 @@ header{
  width: 100%;
  /*Set and adjust background image*/
  background-image: url("ice.jpg");
- background-size:cover;
- max-width:100%;
+ background-position: top center; 
+background-repeat: no-repeat; 
 
+ max-width:1000%;
+ max-height:1000px;
+background-color:pink;
 
  header h1 {
     text-align: center;
-    
+   
 }
 
 
@@ -53,3 +56,18 @@ font-family: "Monserrat",sans-serif;
 padding: 15px;
 }
 
+.services i {
+     height:80px;
+     width:80px;
+     color:white;
+     background:blue;
+     padding: 25px 20px;
+     font-size:30px;
+     border-radius:50%;
+     text-align: center; 
+    
+}
+
+ .team {
+     background-color: pink;
+ }
