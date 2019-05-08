@@ -1,0 +1,22 @@
+.nav-link {
+     opacity:0.7;
+}   
+.nav-link:hover{
+    opacity: 1;
+    background-color: #purple !important;
+}
+
+
+
+
+.footer{
+    background-color:pink;
+}
+
+.footer h6{
+    color:black;
+}
+
+.footer p{
+    color:black;
+}

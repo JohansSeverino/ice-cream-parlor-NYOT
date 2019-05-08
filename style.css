@@ -10,53 +10,54 @@ header{
  height: 700px;
  width: 100%;
  /*Set and adjust background image*/
- background-image: url("ice.jpg");
+ background-image: url(1.jpg);
+ background-size: 100% 100%; 
  background-position: top center; 
-background-repeat: no-repeat; 
-
- max-width:1000%;
+ max-width:100%;
  max-height:1000px;
 background-color:pink;
-
- header h1 {
-    text-align: center;
-   
+}
+.about{
+    background-color:transparent;
 }
 
+.services{
+background-image:url(3.jpg);
+background-size:cover;
 
-.pricing-ic-img {
-    height: 100px;
-    width: 100px;
+}
+.trust{
+    background-image:url(3.jpg);
+    background-size:cover;
+     background-color:;
 }
 
-img{
-    Width:100px;
-    height:100px;
+/*.about div{*/
+/*    background-color: pink;*/
+/*    background-image: */
+/*}*/
+
+/*.body{*/
+/*  background-color: pink;*/
+/*}*/
+
+/*.footer{*/
+/*    background-color:pink;*/
+/*}*/
+
+
+.footer{
+    background-color:pink;
+}
+.footer h6{
+    color:black;
 }
 
-nav {
- float:right;
+.footer p{
+    color:black;
 }
 
-nav a {
- color: #444;
-}
-
-footer {
- background-color:#222222;
- height: 250px;
- width: 100%;
- color: #fff;
- padding-top: 25px;
-}
-
-footer i{
-color: #fff;
-font-family: "Monserrat",sans-serif;
-padding: 15px;
-}
-
-.services i {
+.services i{
      height:80px;
      width:80px;
      color:white;
@@ -65,9 +66,10 @@ padding: 15px;
      font-size:30px;
      border-radius:50%;
      text-align: center; 
-    
+}
+.trust{
+    background-color
 }
 
- .team {
-     background-color: pink;
- }
+
+
