@@ -7,10 +7,18 @@
 }
     
 .pricing{
-    background-color:purple;
+    background-image: url("ice 4.png");
+    background-size:cover;
+    background-position: center;
 }
 
-
+.pricing img{
+    height:200px;
+    width: 300px;
+}
+.pricing img{
+    border-radius:50%;
+}
 
 
 .footer{

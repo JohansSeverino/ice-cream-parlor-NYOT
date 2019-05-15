@@ -6,9 +6,28 @@
     background-color: #eee !important;
 }
 
+.team img{
+    border-radius:50%;
+}
 
+.team span{
+ color: black;
+}
 
+.team h2{
+    color:blue;
+    
+}
 
+.team h3{
+    color:pink;
+}
+
+.mary{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    margin: 10px;
+}
 
 .footer{
     background-color:pink;
@@ -22,7 +41,7 @@
     color:black;
 }
 
-.Team{
+.team{
     background-image: url(back.jpg);
     background-size:cover;
 }

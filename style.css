@@ -5,31 +5,37 @@
     opacity: 1;
     background-color: #eee !important;
 }
-header{
-  /*Sizing of the element*/
- height: 700px;
- width: 100%;
- /*Set and adjust background image*/
- background-image: url(1.jpg);
- background-size: 100% 100%; 
- background-position: top center; 
- max-width:100%;
- max-height:1000px;
-background-color:pink;
+
+.navbar img{
+    height:50px;
+    width: 50px;
 }
+ .navbar{
+    background-color:skyblue;
+ }
+
+
+.navbar a{
+    text-align: center;
+}
+
+.header{
+    background-size: cover;
+}
+
 .about{
     background-color:transparent;
 }
 
+
+
 .services{
-background-image:url(3.jpg);
+background-image:url("ice 4.png");
 background-size:cover;
 
 }
 .trust{
-    background-image:url(3.jpg);
-    background-size:cover;
-     background-color:;
+    background-image:url(".jpg")
 }
 
 /*.about div{*/
@@ -60,8 +66,8 @@ background-size:cover;
 .services i{
      height:80px;
      width:80px;
-     color:white;
-     background:blue;
+     color:skyblue;
+     background:pink;
      padding: 25px 20px;
      font-size:30px;
      border-radius:50%;

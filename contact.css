@@ -7,6 +7,22 @@
 }
 
 
+.Location{
+    background-image: url("ny.dms");
+    background-size: 100% 100%; 
+ background-position: top center; 
+ max-width:100%;
+ max-height:1000px;
+    
+}
+
+label{
+    color: white;
+}
+
+h1{
+    color:white;
+}
 
 
 .footer{
